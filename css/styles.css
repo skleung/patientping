@@ -1,0 +1,71 @@
+.title {
+  font-size: 100px;
+}
+.subtitle {
+  font-size: 30px;
+}
+.intro {
+  height: 100%;
+  width: 100%;
+}
+.intro img {
+  margin: auto;
+}
+section {
+  height:50%;
+}
+p {
+  font-size: 20px;
+  width: 80%;
+  margin: auto;
+}
+.slow {
+  -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+  animation-duration: 2s;
+}
+.short-delay {
+  -moz-animation-duration: 2s;
+  -moz-animation-delay: 3s;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 3s;
+}
+.long-delay {
+  -moz-animation-duration: 2s;
+  -moz-animation-delay: 4s;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 4s;
+}
+.footer-delay {
+  -moz-animation-duration: 1s;
+  -moz-animation-delay: 6s;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 6s;
+}
+
+.repeat {
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+body {
+  font-family: "Roboto", "Helvetica Neue", sans-serif;
+  color: #4d4d4d; /* PatientPing body color */
+  overflow-x: hidden;
+  position: relative;
+}
+.text {
+  color: #4d4d4d; /* PatientPing body color */
+}
+strong {
+  color: #f56252;
+}
+footer {
+  font-size: 16px;
+  padding-bottom: 25px;
+}
+a {
+  color: #338ed1;
+}
+a:hover {
+  text-decoration: none;
+  border-bottom: 3px dotted #338ed1;
+}
